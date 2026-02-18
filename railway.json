@@ -1,0 +1,22 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "npm start"
+  },
+  "env": {
+    "PORT": "3000",
+    "NODE_ENV": "production",
+    "JWT_SECRET": "",  // 留空，在 Railway 界面设置
+    "PASSWORD": "",     // 留空，在 Railway 界面设置
+    "DB_TYPE": "mysql",
+    "DATABASE_URL": "", // 留空，在 Railway 界面设置
+    "ENABLE_GEMINI_CLI": "true",
+    "ENABLE_GEMINI_ANTIGRAVITY": "true",
+    "ENABLE_KIRO_OAUTH": "true",
+    "ENABLE_QWEN_CLI": "true",
+    "ENABLE_IFLOW_OAUTH": "true",
+    "ENABLE_CODEX_OAUTH": "true"
+  }
+}
