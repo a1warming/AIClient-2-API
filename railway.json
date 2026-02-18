@@ -8,10 +8,10 @@
   "env": {
     "PORT": "3000",
     "NODE_ENV": "production",
-    "JWT_SECRET": "",  // 留空，在 Railway 界面设置
-    "PASSWORD": "",     // 留空，在 Railway 界面设置
+    "JWT_SECRET": "",
+    "PASSWORD": "",
     "DB_TYPE": "mysql",
-    "DATABASE_URL": "", // 留空，在 Railway 界面设置
+    "DATABASE_URL": "",
     "ENABLE_GEMINI_CLI": "true",
     "ENABLE_GEMINI_ANTIGRAVITY": "true",
     "ENABLE_KIRO_OAUTH": "true",
